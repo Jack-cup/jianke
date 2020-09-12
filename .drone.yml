@@ -13,3 +13,8 @@ steps:
     image: node:alpine3.12
     commands:
       - npm run test
+
+  - name: build
+    image: node:alpine3.12
+    commands:
+      - npm run build
